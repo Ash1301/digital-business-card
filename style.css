@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#root {
+     width: 550px;
+     height: 868px;
+     background: #23252C;
+}
+
+header {
+    width: 317px;
+    height: 317px;
+    background-image: url(./images/ash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: 0px auto -20.8px; */
+    padding-top:; 
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+main {
+    width: 317px;
+    height: 399px;
+    background: #1A1B21;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter';
+    color: #DCDCDC;    
+}
+
+.name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 0px;
+    padding-top: 21px; 
+}
+
+main > h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: -13px;
+}
+
+main > h5 {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: -5px;
+}
+
+button {
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button > a {
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+
+#btn-email {
+    color: #374151;
+}
+
+#email-btn {
+    margin-left: 6px;
+    margin-right: 20px;
+}
+
+#linkedin-btn {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.linkedin-img {
+    width: 12px;
+    
+}
+
+main > .main-text-title, .main-text {
+    margin-left: 36px;
+    margin-right: 34px;
+}
+
+main > .main-text-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: start;   
+}
+
+main > .main-text {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    text-align: start; 
+    margin-top: -10px;
+}
+
+footer {
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 40px;
+}
+
+footer > a > img {
+    width: 21%;   
+    padding: 20px 16px;
+}
